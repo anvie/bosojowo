@@ -25,11 +25,11 @@ Cara kompile:
 
     $ ./bosojowoc examples/fibbo.jowo
 
-Precompiled binary ada di halaman [releases/](https://github.com/anvie/bosojowo/releases)
+Precompiled binary bisa didownload di halaman [releases/](https://github.com/anvie/bosojowo/releases)
 
 Walaupun ini kompiler asli, namun masih sangat dasar, masih banyak fungsi kompiler yang belum diimplementasikan.
 
 PR are welcome.
 
-[] ]Robin Sy
+[] Robin Sy
 
