@@ -1,0 +1,12 @@
+.*
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+DerivedData/
+bin/
+cmake_install.cmake
+.DS_Store
+Debug
+Release
+*.build
+*.xcodeproj

@@ -1,0 +1,15 @@
+
+
+fungsi fib(double n):double
+mulai
+    nek n < 2.0 njuk
+        nyoh n
+    nek ora
+        nyoh fib(n - 1.0) + fib(n - 2.0)
+bar
+
+double num = 10.0 + 2.0
+str oke = "OK"
+
+weruhi("Kalkulasi FIBONACCI:")
+printf("fib(%f) = %f - %s\n", num, fib(num), oke)

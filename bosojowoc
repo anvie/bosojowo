@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+NAME=$@
+NAME="${NAME%.*}"
+basename=$(basename $NAME)
+BJC=./bin/bosojowo
+
+echo $basename
+
+cat $NAME.jowo | $BJC /tmp/$basename.ll || { echo my compilation error; exit 2; }
+llc -filetype=asm /tmp/$basename.ll || { echo llvm compilation error; exit 2; }
+llvm-gcc -o $basename /tmp/$basename.s || { echo gcc compilation error; exit 2; }
+
+echo ""
+echo "----- kompil rampung -----"
+echo "HASILE:  ./$basename"
+echo ""

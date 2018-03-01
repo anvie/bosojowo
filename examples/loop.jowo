@@ -1,0 +1,16 @@
+
+
+fungsi gajal_muter()
+mulai
+
+    double a = 0.0
+
+    muter 1.0 tekan 10.0
+    mulai
+        a = a + 1.0
+        printf("%f - test\n", i)
+    bar
+bar
+
+
+gajal_muter()
